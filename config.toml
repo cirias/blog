@@ -1,5 +1,4 @@
-#baseurl = "http://blog.cirias.li/"
-baseurl = "http://localhost:1313/"
+baseurl = "http://blog.cirias.li/"
 title = "Sirius's Blog"
 languageCode = "en-us"
 MetaDataFormat = "toml"
