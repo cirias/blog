@@ -49,7 +49,7 @@ PaginatePath = "/"
 
   # Google Analytics
   # Remove, comment, or leave it blank if you don't have one.
-  # ganalytics = "your-google-analytics-tracking-code"
+  ganalytics = "UA-72647522-1"
 
 [menu]
 
