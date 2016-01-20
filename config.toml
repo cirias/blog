@@ -1,4 +1,4 @@
-baseurl = "http://blog.cirias.li/"
+baseurl = "//blog.cirias.li/"
 title = "Sirius's Blog"
 languageCode = "en-us"
 MetaDataFormat = "toml"
