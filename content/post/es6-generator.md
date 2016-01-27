@@ -1,6 +1,6 @@
 +++
 date = "2016-01-27T20:10:38+08:00"
-description = "introduction of ES6 generator feature"
+description = "An introduction to ES6 generator feature"
 keywords = ["javascript", "es6", "generator"]
 isCJKLanguage = true
 title = "ES6 Generator"
@@ -105,7 +105,8 @@ fs.readFile(__filename, 'utf8', function (err, data) {
 var fs = require('fs');
 
 var data = fs.readFile(__filename, 'utf8'); // 注意：是readFile而不是readFileSync
-console.log(data);
+var written = fs.write(1, data); // 写到stdout
+console.log(`${written} bytes written`);
 ```
 
 上面这段代码显然是不能执行的，这里只是想表达出我们的目标，然后以此为基础开始改造。
@@ -115,7 +116,8 @@ var fs = require('fs');
 
 function* main(callback) {
   var data = yield fs.readFile(__filename, 'utf8', callback); // 注意：是readFile而不是readFileSync
-  console.log(data);
+  var written = yield fs.write(1, data, callback); // 写到stdout
+  console.log(`${written} bytes written`);
 }
 ```
 
@@ -158,7 +160,7 @@ run(main);
 'use strict';
 
 function run (fn) {
-  let callback = function (err, data) {
+  let callback = function () {
     it.next([...arguments]);
   };
 
@@ -169,8 +171,9 @@ function run (fn) {
 var fs = require('fs');
 
 function* main(callback) {
-  let [err, data] = yield fs.readFile(__filename, 'utf8', callback);
-  console.log(data);
+  let [, data] = yield fs.readFile(__filename, 'utf8', callback);
+  let [, written] = yield fs.write(1, data, callback);
+  console.log(`${written} bytes written`);
 }
 
 run(main);
