@@ -1,7 +1,8 @@
 +++
 date = "2016-01-27T20:10:38+08:00"
 description = "introduction of ES6 generator feature"
-keywords = []
+keywords = ["javascript", "es6", "generator"]
+isCJKLanguage = true
 title = "ES6 Generator"
 
 +++
