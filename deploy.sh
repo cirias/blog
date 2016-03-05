@@ -1,3 +1,3 @@
 #!/bin/bash
 
-git pull && hugo
+git pull && npm install && npm run sass && hugo

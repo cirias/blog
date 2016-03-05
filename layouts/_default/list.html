@@ -1,0 +1,13 @@
+{{ partial "header.html" . }}
+
+  <main role="main">
+    <ul class="list-entry">
+{{ range .Data.Pages }}
+{{ .Render "summary"}}
+{{ end }}
+    </ul>
+
+    <div class="asterisk"></div>
+  </main>
+
+{{ partial "footer.html" . }}

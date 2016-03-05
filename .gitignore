@@ -1,4 +1,4 @@
 /public
 
-/themes/*
-!/themes/slender
+node_modules
+static/assets/css/style.css
