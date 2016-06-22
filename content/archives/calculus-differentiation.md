@@ -1,13 +1,15 @@
 +++
 categories = ["Blog"]
 date = "2016-05-30T21:30:32+08:00"
-draft = true
+draft = false
 slug = ""
-title = "Calculus"
+title = "Calculus 1A Differentiation Notes"
 
 +++
 
-# LIMIT
+---
+
+# Limit
 
 ## DEFINITION OF ONE-SIDED LIMIT
 
@@ -70,19 +72,16 @@ The following functions are continuous at all real numbers:
 
 all polynomials
 
-`$ \sqrt[3]{x} $`
-
-`$|x|$`
-
-`$\cos(x)$` and `$\sin(x)$`
+- `$ \sqrt[3]{x} $`
+- `$|x|$`
+- `$\cos(x)$` and `$\sin(x)$`
 
 exponential functions `$a^x$` with base `$a>0$`
 
 The following functions are continuous at the specified values of `$x$`:
 
-`$ \sqrt x$`, for `$x >0$`
-
-`$ \tan(x)$`, at all `$x$` where it is defined
+- `$ \sqrt x$`, for `$x >0$`
+- `$ \tan(x)$`, at all `$x$` where it is defined
 
 logarithmic functions `$\log _{a} x$` with base `$a>0$`, for `$x > 0$`
 
@@ -104,7 +103,9 @@ If `$M = 0$` but `$L \ne 0$`, then `$\displaystyle {\lim _{x\rightarrow a} \frac
 
 If both `$M = 0$` and `$L = 0$`, then `$\displaystyle {\lim _{x\rightarrow a} \frac{f(x)}{g(x)}}$` might exist, or it might not exist. More work is necessary to determine whether the last type of limit exists, and what it is if it does exist.
 
-# DERIVATIVE
+---
+
+# The Derivative
 
 ## WHAT IS THE DERIVATIVE? AVERAGE VS INSTANTANEOUS RATES OF CHANGE
 
@@ -202,15 +203,18 @@ The derivative of of the trig functions are:
 <div>$$\frac{d^2}{dx^2} \sin (x) = -\sin (x)$$</div>
 <div>$$\frac{d^2}{dx^2} \cos (x) = -\cos (x)$$</div>
 
+---
 
-### LINEAR APPROXIMATION
+# Differentiation
+
+## LINEAR APPROXIMATION
 
 The linear approximation for a function \ f f near a point x=ax=a is given by the following equivalent formulas:
 
 <div>$$\Delta f \approx \left. \frac{df}{dx} \right|_{x=a} \cdot \Delta x \qquad \ \mathrm{for} \ \Delta x \ \mathrm{near} \ 0$$</div>
 <div>$$f(x) \approx f'(a) (x-a) + f(a) \ \ \ \mathrm{for} \ x \ \mathrm{near} \ a$$</div>
 
-### THE PRODUCT RULE
+## THE PRODUCT RULE
 
 If `$h(x) = f(x)g(x)$`, then
 
@@ -218,7 +222,7 @@ If `$h(x) = f(x)g(x)$`, then
 
 at all points where the derivatives `$f'(x)$` and `$g'(x)$` are defined.
 
-### THE QUOTIENT RULE
+## THE QUOTIENT RULE
 
 If `$h(x) = \frac{f(x)}{g(x)}$` for all `$x$`, then
 
@@ -235,7 +239,7 @@ at all points where `$f$` and `$g$` are differentiable and `$g(x) \ne 0$`.
 <div> $$ {\frac{d}{dx}} \sec x = \frac{\sin x}{\cos ^2 x} $$ </div>
 <div> $$ {\frac{d}{dx}} \csc x = -\frac{\cos x}{\sin ^2 x} $$ </div>
 
-### THE CHAIN RULE
+## THE CHAIN RULE
 
 If `$h(x) = f(g(x))$`, then
 
@@ -249,17 +253,17 @@ Alternatively, if `$y = f(u)$`, and `$u=g(x)$`, then
 
 at any point `$x=a$` where the derivatives on the right hand side are defined.
 
-### IMPLICIT FUNCTIONS
+## IMPLICIT FUNCTIONS
 
 The idea behind the previous problem was that immediately differentiating `$y=x^{m/n}$` was hard. But differentiating the implicit function `$y^ n=x^ m$` was a whole lot easier. This happens any time your function is more simply described implicitly. An implicit function is an equation involving both `$x$` and `$y$` (or any two variables really). You could solve for `$y$` as a function of `$x$`, but often times, that computation is messy (or impossible). If a function is not implicit, we say that it is explicit.
 
-### DEFINITION OF INVERSE FUNCTION
+## DEFINITION OF INVERSE FUNCTION
 
 If functions `$f$` and `$g$` satisfy `$g\left(f(x)\right) = x$` and `$f\left(g(y)\right) = y$`, then we say `$g$` is the inverse of `$f$`, and denote it by `$f^{-1}$`. (Similarly, `$f = g^{-1}$`.)
 
 If a function `$f$` has an inverse function `$f^{-1}$`, then `$f^{-1}(b)= a$` if and only if `$f(a) = b$`.
 
-### DERIVATIVES OF INVERSE FUNCTIONS
+## DERIVATIVES OF INVERSE FUNCTIONS
 
 If `$g$` is a (full or partial) inverse of a function `$f$`, then
 
@@ -267,7 +271,7 @@ If `$g$` is a (full or partial) inverse of a function `$f$`, then
 
 at all `$x$` where `${f'\left(g(x)\right)}$` exists and is non-zero.
 
-### THE DERIVATIVE OF AN EXPONENTIAL FUNCTION
+## THE DERIVATIVE OF AN EXPONENTIAL FUNCTION
 
 The derivative of the exponential function is
 
@@ -278,11 +282,13 @@ where the mystery number `$M(a)$` is the slope of the tangent line at zero:
 <div> $$ M(a) =\left. \frac{d}{dx}a^ x\right|_{x=0} = \lim _{\Delta x\rightarrow 0} \frac{a^{\Delta x}-1}{\Delta x} $$. </div>
 
 ### DEFINITION OF `$e$`
+
 The base `$e$` is the unique real number so that `$M(e) = \left.\frac{d}{dx} e^ x\right|_{x=0} = 1$`. Then
 
 <div> $$ \frac{d}{dx}e^ x = e^ x $$. </div>
 
 ### PROPERTIES OF `$\ln x$`
+
 `$\log _{10}(x)$` is the inverse function of `$10^ x$`.
 
 The natural log, denoted `$\ln (x)$`, is the inverse function of `$e^ x$`.
@@ -295,13 +301,13 @@ The natural log, denoted `$\ln (x)$`, is the inverse function of `$e^ x$`.
 
 <div> $$ \ln (a^ b) = b\ln (a) $$ </div>
 
-### THE DERIVATIVE OF THE NATURAL LOGARITHM
+## THE DERIVATIVE OF THE NATURAL LOGARITHM
 
 Our collection of basic functions that we can differentiate now has one more entry:
 
 <div> $$ \frac{d}{dx} \ln x = \frac{1}{x} $$ </div>
 
-### DIFFERENTIATING EXPONENTIAL FUNCTIONS WITH OTHER BASES
+## DIFFERENTIATING EXPONENTIAL FUNCTIONS WITH OTHER BASES
 
 We can finally identify our mystery number, and differentiate exponential functions with any base.
 
@@ -309,7 +315,7 @@ For any positive constant `$a$`,
 
 <div> $$ \frac{d}{dx} a^ x = a^ x \ln a $$. </div>
 
-#### METHOD 1: CHANGE TO BASE E
+### METHOD 1: CHANGE TO BASE E
 
 To calculate `$\left( f(x)^{g(x)} \right)^{\prime }$`,
 
@@ -317,7 +323,7 @@ first change base `$f(x)^{g(x)} = e^{g(x)\ln f(x)}$`,
 
 then differentiate using the chain rule, and the derivatives of the exponential and natural logarithm functions.
 
-#### METHOD 2: LOGARITHMIC DIFFERENTIATION
+### METHOD 2: LOGARITHMIC DIFFERENTIATION
 
 To calculate `$u^{\prime }$`,
 
