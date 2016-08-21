@@ -276,3 +276,26 @@ code.has-jax {
   border: inherit;
   color: #515151;
 }
+
+table {
+  thead {
+    tr {
+      th {
+        border: 1px solid #ccc;
+        padding: 0.3em 1em;
+      }
+    }
+  }
+  tbody {
+    tr {
+      &:nth-child(2n) {
+        background-color: #f8f8f8;
+      }
+      td {
+        text-align: center;
+        border: 1px solid #ccc;
+        padding: 0.3em 1em;
+      }
+    }
+  }
+}
