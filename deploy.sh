@@ -1,3 +1,6 @@
 #!/bin/bash
 
-git pull && npm install && npm run sass && hugo
+# force update
+git fetch origin && git reset --hard origin/master \
+  && npm install && npm run sass \
+  && hugo
