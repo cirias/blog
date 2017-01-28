@@ -11,8 +11,9 @@ title = "Trackpoint pinout"
 
 但是网上搜了一圈却没有相关的pinout信息。于是只好自己来小小地逆向工程一下了。
 
+![指点](/images/2017/01/trackpoint_comment.jpg)
 
-经高人指点，找到了GND和VCC。已知Trackpoint用的是PS/2协议，接下来只要通过Arduino试错，应该就能找到CLK，DATA，RESET了。
+经高人指点（见上图），找到了GND和VCC。已知Trackpoint用的是PS/2协议，接下来只要通过Arduino试错，应该就能找到CLK，DATA，RESET了。
 
 焊上导线，接上Arduino准备大干一番：
 
