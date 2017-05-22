@@ -167,22 +167,22 @@ article {
   margin-top: 3.2rem + 1.2rem;
   margin-bottom: 3.2rem;
 
-  .entry-title { margin: 0 0 0.4rem; font-size: 1.9rem; font-weight: 500; }
+  .entry-title { margin: 0 0 0.4rem; font-size: 2.6rem; font-weight: 900; }
   .entry-meta {
     color: $meta-color;
     span:before { margin: 0 0.4rem; content: '\2219'; }
     span:first-child:before { content: none; }
   }
 
-  h2 { margin: 4.8rem 0 2.4rem; font-weight: 500; padding-bottom: 0.8rem; border-bottom: 2px solid $border-color; }
-  h3 { margin: 2.4rem 0; font-weight: 500; }
-  p  { margin: 2.4rem 0; }
+  h2 { margin: 1.8rem 0 2.4rem; font-size: 2rem; font-weight: 900; padding-bottom: 0.8rem; border-bottom: 2px solid $border-color; }
+  h3 { margin: 1.4rem 0; font-size: 1.7rem; font-weight: 900; }
+  p  { margin: 1rem 0; }
   a:hover { text-decoration: underline; }
 
   code { padding: 0.2rem 0.4rem; font-size: 90%; background: $light-bg-color !important; border-radius: 4px; }
   pre > code { display: block; padding: 0.8rem !important; line-height: 1.5; white-space: pre-wrap; word-wrap: break-word; }
 
-  ul, ol { margin: 2.4rem 0; padding-left: 2.4rem; }
+  ul, ol { margin: 1rem 0; padding-left: 2.4rem; }
   ul { list-style: desc; }
   ol { list-style: decimal; }
   li { font-size: 1.5rem; line-height: 1.75; }
