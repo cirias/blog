@@ -1,7 +1,7 @@
 +++
 categories = ["Blog"]
 date = "2017-06-12T20:25:06+08:00"
-draft = false
+draft = true
 slug = ""
 title = "digital video notes"
 
