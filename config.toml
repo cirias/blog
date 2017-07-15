@@ -1,7 +1,7 @@
 baseurl = "https://blog.cirias.li/"
 languageCode = "zh"
 title = "blog.cirias.li"
-author = "Sirius"
+author = "Sirius Fang"
 
 [params]
   Recent = 24

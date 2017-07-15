@@ -1,16 +1,8 @@
 {{ partial "header.html" . }}
 
-  <main role="main">
-    <ul class="list-entry">
-{{ range first .Site.Params.Recent .Data.Pages }}
+  <main class="post-list">
+{{ range .Data.Pages }}
 {{ .Render "summary"}}
-{{ end }}
-    </ul>
-
-{{ if gt (len .Data.Pages) .Site.Params.Recent }}
-    <div class="view-more-posts">
-      <div class="more"><a href="/archives/">View more {{ len .Data.Pages}} posts</a></div>
-    </div>
 {{ end }}
   </main>
 

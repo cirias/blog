@@ -1,12 +1,22 @@
-      <li itemscope itemtype="http://schema.org/Blog">
-        <a href="{{ .RelPermalink }}">
-          <div class="entry-text">
-            <h2 class="entry-title" itemprop="headline">{{ .Title }}{{ if .Draft }} #Draft{{ end }}</h2>
-            <p class="entry-excerpt">{{substr .Summary 0 75}} ...</p>
-            <span class="entry-meta"><time itemprop="datePublished" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 02, 2006" }}</time></span>
-          </div>
-          {{ with .Params.image }}
-          <div class="entry-image"><img src="{{ . }}" width="160" height="120"></div>
-          {{ end }}
-        </a>
-      </li>
+      <article class="post">
+        <header class="post-header">
+          <h2 class="post-title">
+            <a href="{{ .RelPermalink }}">
+              {{ .Title }}{{ if .Draft }} #Draft{{ end }}
+            </a>
+          </h2>
+        </header>
+        <!--
+           - <section class="post-excerpt">
+           -   <p>
+           -     {{substr .Summary 0 75}}
+           -     <a class="read-more" href="{{ .RelPermalink }}">»</a>
+           -   </p>
+           - </section>
+           -->
+        <footer class="post-footer">
+          <time datetime="{{ .Date.Format "2006-01-02" }}">
+            {{ .Date.Format "Jan 02, 2006" }}
+          </time>
+        </footer>
+      </article>
