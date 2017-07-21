@@ -88,7 +88,7 @@ I decide to use shadowsocks for these reasons:
 
 1. It works stable enough currently.
 2. It provides a transparent mode that supports both tcp and udp.
-3. It's much easier than write a vpn by yourself (if you interest, here is a [post](/archives/myvpn/) talking about how to do it).
+3. It's much easier than write a vpn by yourself (if you interest, here is a [post](/myvpn/) talking about how to do it).
 
 Since I am a big fan of Docker, it must run in a container ;)
 

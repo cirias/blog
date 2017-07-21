@@ -3,18 +3,19 @@
   "version": "1.0.0",
   "description": "",
   "main": "gulpfile.js",
+  "watch": {
+    "build": "./src/style.less"
+  },
   "scripts": {
-    "build": "webpack",
-    "watch": "webpack --progress --watch"
+    "build": "lessc ./src/style.less > ./static/assets/css/style.css",
+    "watch": "watch-run -p ./src/style.less npm run build"
   },
   "author": "Sirius",
   "license": "MIT",
   "devDependencies": {
     "css-loader": "^0.28.4",
     "less": "^2.7.2",
-    "less-loader": "^4.0.5",
     "normalize.css": "^7.0.0",
-    "style-loader": "^0.18.2",
-    "webpack": "^3.2.0"
+    "watch-run": "^1.2.5"
   }
 }

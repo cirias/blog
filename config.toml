@@ -6,4 +6,6 @@ author = "Sirius Fang"
 [params]
   Recent = 24
   GATrackingCode = "UA-72647522-1"
-  Disqus = "blogciriasli"
+
+[permalinks]
+  post = "/:title/"
