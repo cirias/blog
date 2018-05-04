@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# force update
-git fetch origin && git reset --hard origin/master \
-  && npm install && npm run build \
-  && hugo
+ssh ubuntu@blog.cirias.li /bin/bash << EOF
+  cd github.com/cirias/blog
+  git pull
+  hugo
+EOF
