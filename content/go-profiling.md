@@ -1,11 +1,11 @@
-+++
-categories = ["Blog"]
-date = "2016-06-20T14:17:24+08:00"
-draft = false
-slug = ""
-title = "go profiling"
-
-+++
+---
+categories:
+- Blog
+date: 2016-06-20T14:17:24+08:00
+draft: false
+slug: ""
+title: go profiling
+---
 
 Memo for how to profile go program.
 

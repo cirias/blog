@@ -1,10 +1,12 @@
-+++
-date = "2016-03-04T20:59:21+08:00"
-description = "es6自定义错误类型"
-keywords = ["es6", "babel", "javascript"]
-title = "babel6继承内置类型"
-
-+++
+---
+date: 2016-03-04T20:59:21+08:00
+description: es6自定义错误类型
+keywords:
+- es6
+- babel
+- javascript
+title: babel6继承内置类型
+---
 
 直奔主题，我在使用babel6尝试通过`class ... extend`继承`Error`来实现自定义错误类型的时候遇到了问题。
 

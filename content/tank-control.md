@@ -1,11 +1,11 @@
-+++
-categories = ["Blog"]
-date = "2016-11-08T21:56:41+08:00"
-draft = false
-slug = ""
-title = "Tank Control"
-
-+++
+---
+categories:
+- Blog
+date: 2016-11-08T21:56:41+08:00
+draft: false
+slug: ""
+title: Tank Control
+---
 
 ## 组件
 

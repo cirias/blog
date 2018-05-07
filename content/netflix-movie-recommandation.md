@@ -1,11 +1,11 @@
-+++
-categories = ["Blog"]
-date = "2016-06-11T14:33:58+08:00"
-draft = false
-slug = ""
-title = "netflix movie recommandation"
-
-+++
+---
+categories:
+- Blog
+date: 2016-06-11T14:33:58+08:00
+draft: false
+slug: ""
+title: netflix movie recommandation
+---
 
 Baseline predictor function:
 

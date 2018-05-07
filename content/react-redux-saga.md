@@ -1,11 +1,11 @@
-+++
-categories = ["Blog"]
-date = "2016-11-08T07:21:35+08:00"
-draft = false
-slug = ""
-title = "React Redux Saga"
-
-+++
+---
+categories:
+- Blog
+date: 2016-11-08T07:21:35+08:00
+draft: false
+slug: ""
+title: React Redux Saga
+---
 
 ## React
 

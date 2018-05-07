@@ -1,11 +1,11 @@
-+++
-categories = ["Blog"]
-date = "2017-06-12T20:25:06+08:00"
-draft = false
-slug = ""
-title = "digital video notes"
-
-+++
+---
+categories:
+- Blog
+date: 2017-06-12T20:25:06+08:00
+draft: false
+slug: ""
+title: digital video notes
+---
 
 ### 基本概念
 

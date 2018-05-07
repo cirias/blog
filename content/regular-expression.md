@@ -1,11 +1,11 @@
-+++
-categories = ["Blog"]
-date = "2016-08-20T09:19:47+08:00"
-draft = false
-slug = ""
-title = "正则表达式"
-
-+++
+---
+categories:
+- Blog
+date: 2016-08-20T09:19:47+08:00
+draft: false
+slug: ""
+title: 正则表达式
+---
 
 正则表达式没有统一的标准，各个语言、工具的实现都有差别。
 在此主要讨论UNIX环境下一些命令行工具对正则表达式的不同定义。

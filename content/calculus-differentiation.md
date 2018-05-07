@@ -1,11 +1,11 @@
-+++
-categories = ["Blog"]
-date = "2016-05-30T21:30:32+08:00"
-draft = false
-slug = ""
-title = "Calculus 1A Differentiation Notes"
-
-+++
+---
+categories:
+- Blog
+date: 2016-05-30T21:30:32+08:00
+draft: false
+slug: ""
+title: Calculus 1A Differentiation Notes
+---
 
 ---
 

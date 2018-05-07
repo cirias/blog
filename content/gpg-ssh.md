@@ -1,10 +1,11 @@
-+++
-date = "2018-04-04 16:50:43.926 +0800"
-draft = false
-title = "SSH with GPG Agent"
-categories = ["Blog"]
-slug = ""
-+++
+---
+categories:
+- Blog
+date: 2018-04-04 16:50:43.926 +0800
+draft: false
+slug: ""
+title: SSH with GPG Agent
+---
 
 Most of the docs of setting ssh over gpg are outdated since gnupg update to gnupg2.
 Here are the new method to let it work.

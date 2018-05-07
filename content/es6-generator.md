@@ -1,10 +1,12 @@
-+++
-date = "2016-01-27T20:10:38+08:00"
-description = "An introduction to ES6 generator feature"
-keywords = ["javascript", "es6", "generator"]
-title = "ES6 Generator"
-
-+++
+---
+date: 2016-01-27T20:10:38+08:00
+description: An introduction to ES6 generator feature
+keywords:
+- javascript
+- es6
+- generator
+title: ES6 Generator
+---
 
 Generator是ES6新加入的一项特性，一种特殊的函数——可以暂停的函数。它的主要作用是生成一个iterator（迭代器），
 用于遍历一组数据。

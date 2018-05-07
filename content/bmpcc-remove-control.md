@@ -1,11 +1,11 @@
-+++
-categories = ["Blog"]
-date = "2016-11-11T08:08:38+08:00"
-draft = false
-slug = ""
-title = "BMPCC Remove Control with Arduino"
-
-+++
+---
+categories:
+- Blog
+date: 2016-11-11T08:08:38+08:00
+draft: false
+slug: ""
+title: BMPCC Remove Control with Arduino
+---
 
 整个控制过程分为两部分：
 

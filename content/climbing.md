@@ -1,11 +1,11 @@
-+++
-categories = ["Blog"]
-date = "2017-01-16T20:58:42+08:00"
-draft = false
-slug = ""
-title = "攀岩"
-
-+++
+---
+categories:
+- Blog
+date: 2017-01-16T20:58:42+08:00
+draft: false
+slug: ""
+title: 攀岩
+---
 
 不知不觉已经爬了九个多月了。还记得清明时那个奇妙的决定，让攀岩成为我生命不可分割的部分。
 

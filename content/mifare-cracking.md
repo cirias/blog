@@ -1,11 +1,11 @@
-+++
-categories = ["Blog"]
-date = "2017-05-22T20:34:56+08:00"
-draft = false
-slug = ""
-title = "Mifare Cracking"
-
-+++
+---
+categories:
+- Blog
+date: 2017-05-22T20:34:56+08:00
+draft: false
+slug: ""
+title: Mifare Cracking
+---
 
 上周偶然遇到机会需要复制RFID卡。
 于是搜索了一番后，在某宝买了个PN532，居然很轻松地就复制了Mifare Classic的卡。

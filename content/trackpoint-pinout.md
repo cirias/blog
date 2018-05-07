@@ -1,11 +1,11 @@
-+++
-categories = ["Blog"]
-date = "2017-01-28T16:48:04+08:00"
-draft = false
-slug = ""
-title = "Trackpoint pinout"
-
-+++
+---
+categories:
+- Blog
+date: 2017-01-28T16:48:04+08:00
+draft: false
+slug: ""
+title: Trackpoint pinout
+---
 
 从某宝弄了块Thinkpad键盘，从上面把Trackpoint拆下来，想折腾一下。
 

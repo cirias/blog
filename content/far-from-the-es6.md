@@ -1,10 +1,12 @@
-+++
-date = "2016-03-12T14:52:10+08:00"
-description = "使用async generator的方法，及一些感想"
-keywords = ["ES7", "babel", "async generator"]
-title = "ES7初体验"
-
-+++
+---
+date: 2016-03-12T14:52:10+08:00
+description: 使用async generator的方法，及一些感想
+keywords:
+- ES7
+- babel
+- async generator
+title: ES7初体验
+---
 
 有一天，我需要写一个脚本，它的任务是不停地调用一个异步函数，把异步函数返回的一组数据每个单独存放到redis，直到异步函数返回null为止。
 

@@ -1,11 +1,11 @@
-+++
-categories = ["Blog"]
-date = "2016-07-22T09:55:27+08:00"
-draft = false
-slug = ""
-title = "Test database dependent code in Go"
-
-+++
+---
+categories:
+- Blog
+date: 2016-07-22T09:55:27+08:00
+draft: false
+slug: ""
+title: Test database dependent code in Go
+---
 
 There are two problems need to slove to test database operations:
 
