@@ -21,7 +21,7 @@ title: Trackpoint pinout
 
 从网上找了[Arduino PS/2 mouse的代码](http://playground.arduino.cc/uploads/ComponentLib/mouse.txt)，改了下：
 
-```clang
+```c
 void gohi(int pin)
 {
   pinMode(pin, INPUT);

@@ -3,14 +3,9 @@
   <main role="main">
     <article>
       <header>
-        <h1 class="post-title">
+        <h1>
           {{ .Title }}{{ if .Draft }} #Draft{{ end }}
         </h1>
-        <section class="post-meta">
-          <time datetime="{{ .Date.Format "2006-01-02" }}">
-            {{ .Date.Format "Jan 02, 2006" }}
-          </time>
-        </section>
       </header>
       <section>
         {{ .Content }}
